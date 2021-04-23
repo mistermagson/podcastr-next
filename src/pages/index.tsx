@@ -1,4 +1,4 @@
-import React from "react";
+import { server } from '../config'
 
 
 export default function Home(props) {
@@ -13,7 +13,7 @@ export default function Home(props) {
 
 export async function getStaticProps() {
   // const response = await fetch(`http://localhost:3333/episodes`)
-  const response = await fetch(`http://localhost:3000/api/episodes`)
+  const response = await fetch(`${server}/api/episodes`)
   const data = await response.json()
 
   return {

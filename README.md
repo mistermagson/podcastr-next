@@ -16,5 +16,6 @@ A simple frontend made with REACT </br>
 
 ![Layout](/public/podcastr-figma-01.png)
 
-## Design in progress  
+## Design in progress
+![Layout](/public/done02.png)  
 ![Layout](/public/done01.png)
